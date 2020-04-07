@@ -48,5 +48,11 @@
     <Compile Include="SqlHelper.cs" />
     <Compile Include="UsersManager.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{CC817D5F-ABA2-4BB4-9876-B0E66A9A1FCC}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
